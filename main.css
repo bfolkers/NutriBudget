@@ -1,0 +1,48 @@
+.height, .activity-level,
+.height-label, .activity-label {
+  margin-left: 10px;
+}
+
+.weight, .weight-label {
+  margin-left: 20px;
+}
+
+.reset-button {
+  margin-left: 17px;
+}
+
+
+.calculate {
+  margin-top: 27px;
+  margin-left: 20px;
+}
+
+/*.search-section {
+  visibility: hidden;
+}*/
+
+.reset-button, .print-button {
+  visibility: hidden;
+}
+
+.nutri-search, .add, .remove {
+  margin-top: 27px;
+  margin-left: 10px;
+}
+
+.search-form {
+  margin-right: 10px;
+}
+
+.caloric-needs {
+  margin-left: 10px;
+}
+
+.nutri-list, .budget-list {
+  overflow-x: auto;
+}
+
+.print {
+  display: none;
+  visibility: hidden;
+}

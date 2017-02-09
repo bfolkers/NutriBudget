@@ -1,0 +1,12 @@
+* {
+  visibility: hidden;
+}
+
+.reset-button, .print-button {
+  display: none;
+}
+
+.print, .printed {
+  visibility: visible;
+  display: block;
+}
