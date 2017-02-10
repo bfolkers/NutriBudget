@@ -200,10 +200,16 @@ $(function() {
       bmr + '</h4></article>');
     $('.print').append('<article  class="printed"><h4 class="printed">Calories Budgeted: ' +
       budgetCalories + '</h4></article><br>');
-    $('.budget-list > option').each(function() {
-      $('.print').append('<p class="printed">' + this.value + '<p>');
-    })
+    // $('.budget-list > option').each(function() {
+    //   $('.print').append('<p class="printed">' + this.value + '<p>');
+    // })
+    $('.print-tbl').append('<tr class="printed"><th class="printed">Food</th><th class="printed">Calories</th></tr>');
+    for (var i = 0; i < foodBudget.length; i++) {
+      $('.print-tbl').append('<tr class="printed"><td class="printed">' + foodBudget[i].brand + ' ' + foodBudget[i].item + '</td><td class="printed">'
+        + foodBudget[i].calories + '</td></tr>');
+    }
     window.print();
     $('.print').empty();
+    $('.print-tbl').empty();
   })
 })

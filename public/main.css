@@ -46,3 +46,7 @@
   display: none;
   visibility: hidden;
 }
+
+.print-tbl {
+  display: none;
+}
